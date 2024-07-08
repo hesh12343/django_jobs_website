@@ -1,0 +1,13 @@
+<h1>
+    Jop List
+</h1>
+<h2>
+{% for job in jobs %}
+ {{job.name}}
+ {{job.id}}
+ {{job.strat_salary}}
+ {{job.end_salary}}
+ {{job.description}}
+
+{% endfor %}
+ </h2>
